@@ -68,5 +68,17 @@ brew install redis
 23893:M 06 Apr 2020 18:29:54.327 * DB loaded from disk: 0.000 seconds
 23893:M 06 Apr 2020 18:29:54.327 * Ready to accept connections
 
+```
+
+## Running Redis CLI to connect to Redis server 
+
+```
+Last login: Sat Apr  4 14:55:16 on ttys006
+[Captains-Bay]🚩 >  redis-cli
+127.0.0.1:6379> set  a1 100
+OK
+127.0.0.1:6379> get a1
+"100"
+127.0.0.1:6379>
 
 ```
